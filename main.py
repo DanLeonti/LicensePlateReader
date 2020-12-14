@@ -1,7 +1,7 @@
 import cv2
 import pytesseract
 import os
-
+print (cv2.__version__)
 pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files\Tesseract-OCR\Tesseract.exe'
 
 frameWidth = 800
